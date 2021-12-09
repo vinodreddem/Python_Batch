@@ -1,1 +1,31 @@
 What is difference between tuple and list?
+
+
+Q. *arg and **kwargs difference.
+
+Q. default, keywarod arguments, positional arguments?
+
+Q. Copy Object (deep copy and swallo Copy)
+
+
+Q. convert camel case into snake case and snake case to camel case?
+
+Q. Sort a list?
+
+Q. Find second max element in the list ?
+
+Q. find the factorial number?
+
+Q. find the given number is a prime number or not?
+
+Q. list down the list of prime numbers upto given number?
+
+Q. find the squre of numbers using map and tradinoal for loops?
+
+Q> filter only even numbers --using list comprehention, filter and for loops?
+
+Q. find mul of list of numbers using reduce and for loop?
+
+Q. get the word list and find count of each word?
+
+Q> 
