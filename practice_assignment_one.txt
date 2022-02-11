@@ -1,0 +1,124 @@
+Q. Create a range of list which is having even numbers upto 100?
+Q. Create a range of list which is having odd numbers upto 100?
+Q. Create a range of list which is having multiples of 7 upto 100?
+Q. a =10, b =20 -- Swap two numbers.
+Q. example given the string "Welcome to the danger zone" should become "zone danger the to Welcome" and not "enoz regnad eht ot emocleW"? 
+Q. You are given a string input, let's say "Hello World!". Your output should be, how many times each character is showing up in the string. So, in this example, it should write:
+	H: 1 e: 1 l: 3 o: 2
+	
+Q. 
+zenPython = '''
+
+The Zen of Python, by Tim Peters
+
+
+
+Beautiful is better than ugly.
+
+Explicit is better than implicit.
+
+Simple is better than complex.
+
+Complex is better than complicated.
+
+Flat is better than nested.
+
+Sparse is better than dense.
+
+Readability counts.
+
+Special cases aren't special enough to break the rules.
+
+Although practicality beats purity.
+
+Errors should never pass silently.
+
+Unless explicitly silenced.
+
+In the face of ambiguity, refuse the temptation to guess.
+
+There should be one-- and preferably only one --obvious way to do it.
+
+Although that way may not be obvious at first unless you're Dutch.
+
+Now is better than never.
+
+Although never is often better than *right* now.
+
+If the implementation is hard to explain, it's a bad idea.
+
+If the implementation is easy to explain, it may be a good idea.
+
+Namespaces are one honking great idea -- let's do more of those!
+
+'''
+
+ Q1. find the count of number of words?
+ Q2. remove the characters in the words like *, \n, !, - ..etc and find then find the count of words?
+ Q3. Convert all words into lower words?
+ Q4. generate a dict with word as name and count of that as value?
+ 
+ 
+ Q. Convert camel case to snake case and snake case to camle case?
+	# input:  is_valid_number
+	# output: isValidNumber 
+	vice versa.
+	
+Q. lst = [34,56,34,78,56,23,45,23]
+	checkIfDuplicates(lst) --- >write a function to find the duplicate elements.
+	
+Q. """ Q. ABCDE --- Move 2 positions cyclic (Use Mod to length of string if Cyclic position is greater than length)
+    Now result is ---CDEAB
+    ABCDE
+      CDEAB  
+    """
+	Q2. Move 8 positions cyclic.
+	
+Q. #lst = ['abt','bta','tab','bar','dsksllkd']
+# all words which is having same characters group into one list and written --here we can say "abt" is same as "bta"?
+
+Q. print below patterns?
+	#Print the below pattern
+
+	####
+	####
+	####
+	####
+
+	# 2nd Pattern
+	"""
+	*
+	**
+	***
+	****
+	"""
+ 
+	 
+	 #3rd Printing Pattern
+	"""
+		  &
+		 &&
+		&&&
+	   &&&&
+	  &&&&&   
+	"""
+	
+	
+	
+	"""
+	&&&&
+	&&&
+	&&
+	&
+	"""
+	
+	
+Q. Reverse the integer using str and also by mathematical operations by using remainder and dividend values? 3425 --- 5243
+Q. Find an element from a string?
+Q. find program to find the nth prime number?
+Q. swap all zeroes to end?
+	lst = [1,0,1,0,0,1,1,0]
+Q. Sort a list [34,67,87,23,12,4,89]
+Q. factorial of a number?
+Q. 
+
