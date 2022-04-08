@@ -1,0 +1,365 @@
+Q. Race conditions
+
+Q. Eureka Server?
+
+Q. Singleton class?
+
+Q. Cors error in rest api?
+
+Q.rest vs Soap?
+
+Q. Difference between URI, URL and URN?
+
+Q. What is the way to sort te list of objects ?
+
+Q. How to connect to databases using python?
+
+Q. How to sort class objects?
+
+Q. What is the default port in django ?
+
+Q. How can we chanage from default port in djnago to another ?
+
+Q. Mocking in unit testing?
+
+Q. view and materialized view in sql
+
+Q. How to store Image field in database?
+
+Q. Media queries in Css?
+
+Q. Foreign key fields?
+
+Q. models.F
+
+Q. Django query  optimization ?
+
+Q. Select Related or Pre-fetch related?
+
+Q. django-debug-toolbar UI.
+
+Q. circular memory reference?
+
+Q. name mangling ?
+
+Q. what is closures?
+
+Q. What is mean by descriptor?
+
+Q. What is new method?
+
+Q. How to scale up the application, when number of requests increased?
+
+Q. Singlton class?
+
+Q. Design patterns in django and REST API?
+
+Q. How to create a generator using inbuilt function?
+
+Q. how to delete the memory of the files?
+
+Q. How can we get the memory used so far in the program?
+
+Q. How to install packages automatically in the server if not installed?
+
+Q. How to check the SQL Server is installed or not by using python code?
+
+Q. what are the servers used to deploy applications?
+
+Q. Complex Json to CSV files?
+
+Q. How to handle a rest api , If we make large number of calls to the API?
+
+Q. How to remove duplicate elements from employee table based on table?
+
+Q. how to get sub lists which we are going to get sum of elements as 10.
+   lst = [1,2,3,4,5,6,7,8,9,10]
+   which is having two numbers.
+   
+   out_ist = [(1,2,3,4), (1,2,7), (1,3,6), (10,), (1,9), (2,8)....... all combinations)?
+
+Q. read data from "https://jsonplaceholder.typicode.com/users" 
+   and get name, username, latitude, longitude and company name.
+
+Q. table A:   
+   Key Col1
+   A    1
+   B    2
+   C    3
+
+  table B:
+  Key  Col2
+   A    4
+   C    5
+   C    6
+
+  What is the results of the left outer join and right outer join?
+
+# we have json and convert to table 
+# Convert a json input to a table/csv/tabular format. 
+
+
+Q. non local keywords and global words?
+
+Q. User agent in flask?
+
+Q. How to use condition on Max() on having?
+
+Q. Convert Pd.Series to list?
+
+Q. Race condition in django
+
+Q. data structure?
+
+Q. Monkey patching 
+
+Q. last 5 records in a table
+
+Q. soft delete and hard delete ?
+
+Q. what is yarn id ? is application getting failed without yarn id?
+
+Q. Signals in Django, If we do some validations in post save and it raises exception , are we going to do save data or reverted?
+
+Q. genericForeign Key?
+
+Q. Content Type Framework
+
+Q. How to create virtual environments with different versions?
+
+Q. Procedure to have multiple versions of Databases in a single Django project
+
+Q. is Python interpreted language or compiler language?
+
+Q. Django channels
+
+Data Structures:
+-----------------
+
+Q. Why tuples has less memoery comapre to tuples?
+
+Q. Why tuples are faster while iterating comapre to lists?
+
+Q. What is difference between list and tuples?
+
+Q. How to send an Emails and bulk emails in python?
+
+Q. *arg and **kwargs difference.
+
+Q. default, keywarod arguments
+
+Q. Copy Objech (deep copy and swallo Copy)
+
+Q. Indexing and Negative Indexing (How can You reverse a string through indexing?)
+
+Q. Range and Xrange difference ?
+
+Q. Implement multi threading?
+
+Q. What is difference between multi processing and multi threading?
+
+Q. How can we get function name from a method assigned variable?
+
+Q. Thread pool executor?
+
+Q. How can we call Second level method using Super keyword?
+
+Q. How can we call concurent Rest API?
+
+Q. inp_dict = {'a':'1', 'b':{'c':'2', 'd':{'z':'5', 'e':{'f':'13', 'g':'14'}}}} 
+# , 'b':{'c':'2', 'd':{'z':'5', 'e':{'f':'13', 'g':'14'}}}}
+out_arr = []
+def flatten_dict(key, inp):
+    for keys, values in inp.items():
+        key_in = ""
+        elm = ""
+        if key == "":
+            key_in = str(keys)
+        else:
+            key_in = key + ":" + str(keys)
+            
+        elm = elm + str(key_in)
+        if isinstance(values, (dict,)):
+            flatten_dict(key_in, values)
+        else:
+            elm = elm + ":" + str(values)
+            out_arr.append(elm)
+            
+key = ""
+flatten_dict(key, inp_dict)
+print(out_arr)	
+
+OOPS:
+-----
+
+Q. How to write a generator through class?
+
+Q. How and when are we going to .pyc files?
+
+Q. Class, Method , Self and Init
+
+Q. inheritence concepts?
+
+Q. Poly Morphism?
+
+Q. Can We write n- number of init methods inside a class?
+
+Q. Method resolution order?
+
+Q. How to call Override method in Base class?
+
+Q. Dundler methods?.
+
+Q. Abstracion.
+
+Q. Aggregation and Composition.
+
+Q. What is Object() method?
+
+
+
+REST API:
+---------
+Q. What is difference between PUT and PATCH?
+
+
+Q. REST API --Status Codes
+
+Q. OAuth2 Authentication
+
+Other Pythoon Concepts:
+-----------------------
+
+Q. is Serializers required in django rest api?
+
+Q. Locl, Global Variables
+
+Q. What is meant by monkey patching?
+
+Q. How to convert Json into dict and vice versa?
+
+Q. What  is serialization and deserialization, pickling and un pickling?
+
+Q. Sysy Module, Os Module , Pandas, Requests Module, Math module, Time Module
+
+Q. PDB Module for debugging
+
+Q. How to give prints 
+
+Q. Decarator
+
+Q. Generator
+
+Q. difference between append and extend?
+
+Q. how can we generate elements without witing .__next__() in generator?
+
+Q. How to swap variables without using third party variable?
+
+Q. How to send mass mails in python ?
+
+
+Coding:
+-------
+
+GIT:
+----
+Q. Git - How can you discover if a branch has already been merged or not?
+
+Q. select select employeeNo, fullName, len(fullName) from Content
+
+Q. Git - How do you squash the last N commits into a single commit?
+
+Django:
+-------
+Q. User Authentication?
+
+Q. User preveliges in django?
+
+Q. How to select user admin?
+
+Q. Authentication in django rest apis? 
+
+Q. in requests module difference between content and text?
+   r.text is the content of the response in Unicode, and r.content is the content of the response in bytes.
+
+Q. select related and pre -fetch related
+
+Q. How can we rollback the migration commands?
+
+Q. foreign key and many to many fields relations and sql data bases for that?
+
+Q. Views and stored procedures.
+
+Q. Signals in Django 
+
+Q. difference between RDBMS and ODBMS ?
+
+Q. CSRF Token ?
+
+Q  Middile ware?
+
+Q. Session Management?
+
+Q .Django Mixins?
+
+Q.Django Migration problem
+	Suppose DB is up to date but the migrations has new increments. New incremental migration has scripts which says add , alter remove fields but all the operations are already done in the DB. When trying to make any other changes to models and trying to migrate Django keeps throwing an error saying duplicate column when trying to add or column does not exist if it is already removed. What are the ways to overcome this
+
+Q. REST API Caching -- designing from server side
+	You are developing a Microservice, which serves fairly static data using REST API. For example, details about the Patents filed. Let's assume you have an API to get details about the patent filed; such as GET ./patentDetails/PATENTID/
+
+
+Q. Python Django question: URL mapping
+	Let's say you have a REST API to GET details of a specific student from the server that runs Django.
+
+Q. How will you map the URL to the implementation? Note that the API must be authenticated
+
+Pandas and Numpy:
+-----------------
+Q. Pandas -- filtering , Lambda function apply on rows, data frames , group by , how to create new column , axis meaning,  read and store, large file read
+   append, merge concepts
+   
+Q. difference between lists, array and numpy array
+
+Q. how to parse xml file and update value of one tag?
+
+Method 1:
+---------
+a =10, b =20
+a = a + b // a =30
+b = a -b // 10
+a = a -b //20
+
+Method: 2
+---------
+a, b = b, a
+
+Method 3:
+--------- 
+temp = a
+a = b
+b = temp
+
+Q. example given the string "Welcome to the danger zone" should become "zone danger the to Welcome" and not "enoz regnad eht ot emocleW"?
+
+Q. You are given a string input, let's say "Hello World!". Your output should be, how many times each character is showing up in the string. So, in this example, it should write:
+
+H: 1 e: 1 l: 3 o: 2
+
+Q. Print a given array in a loop to output the desired pattern
+Input length of an array, the array, number of characters in a group and number of groups. Print the array cyclically in a loop.
+
+Length-6
+Array-[1,2,3,4,5,6]
+Group- 4
+Iterations- 7
+Prints
+
+['1', '2', '3', '4']
+['5', '6', '1', '2']
+['3', '4', '5', '6']
+['1', '2', '3', '4']
+['5', '6', '1', '2']
+['3', '4', '5', '6']
+['1', '2', '3', '4']
